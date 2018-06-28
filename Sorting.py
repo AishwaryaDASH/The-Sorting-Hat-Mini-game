@@ -25,8 +25,9 @@ def sorting(players, m):
 ch=userchoice()
 if ch==True:
 	print("Enter your list of people for sorting to respective houses:")
+	print("\n\nLeave two spaces between the names:")
 	s=input()
-	sorting(s, ' ')
+	sorting(s, '  ')
 else:
 	print("Here we have some great names in the wizarding history!")
 	file=open('in.txt','r')
