@@ -32,4 +32,4 @@ else:
 	print("Here we have some great names in the wizarding history!")
 	file=open('in.txt','r')
 	in_put=file.read()
-	sorting(in_put, '  ')
+	sorting(in_put, '  ') 
